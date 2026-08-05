@@ -12,6 +12,49 @@ This journal documents the challenges I encountered, the troubleshooting process
 
 ---
 
+# 💻 Challenge 0 – Hardware Limitations
+
+## Problem
+
+When I began building this homelab, my laptop only had **4 GB of RAM**. Running Windows Server 2022, Windows 11 Enterprise, and Oracle VirtualBox simultaneously caused significant performance issues.
+
+Common problems included:
+
+- Slow virtual machine performance
+- Long boot times
+- Limited ability to run multiple virtual machines
+- Resource constraints while configuring the lab
+
+These limitations made it difficult to build and manage an enterprise environment efficiently.
+
+## Investigation
+
+After monitoring system performance, I determined that the primary bottleneck was available system memory.
+
+Rather than lowering the scope of the project, I decided to upgrade the hardware so the lab could better support virtualization and multiple operating systems.
+
+## Resolution
+
+I upgraded my laptop from **4 GB of RAM to 16 GB of RAM**.
+
+The memory upgrade significantly improved the performance of Oracle VirtualBox and allowed me to comfortably run:
+
+- Windows Server 2022 (DC01)
+- Windows 11 Enterprise (CLIENT01)
+- Splunk Enterprise
+- Sysmon
+- Active Directory services
+
+The additional memory made the environment much more stable and greatly improved the overall lab experience.
+
+## Skills Demonstrated
+
+- Hardware Upgrades
+- Performance Troubleshooting
+- Virtualization
+- Resource Planning
+- Problem Solving
+- 
 # 🔧 Challenge 1 – CLIENT01 Could Not Join the Domain
 
 ## Problem

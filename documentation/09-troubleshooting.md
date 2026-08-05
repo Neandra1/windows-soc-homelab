@@ -54,7 +54,9 @@ The additional memory made the environment much more stable and greatly improved
 - Virtualization
 - Resource Planning
 - Problem Solving
-- 
+  
+--- 
+
 # 🔧 Challenge 1 – CLIENT01 Could Not Join the Domain
 
 ## Problem
